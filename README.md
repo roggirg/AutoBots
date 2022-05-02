@@ -7,6 +7,7 @@ We include support for the following datasets:
 - [TrajNet++](https://www.aicrowd.com/challenges/trajnet-a-trajectory-forecasting-challenge) Synthetic dataset (multi-agent)
 - [Interaction-Dataset](https://interaction-dataset.com/) (multi-agent)
 
+Visit our [webpage](https://fgolemo.github.io/autobots/) for more information.
 
 ### Getting Started
 
@@ -90,6 +91,21 @@ For the Interaction-Dataset:
 
 ```
 python useful_scripts/generate_indst_test.py --dataset-path /path/to/root/of/interaction_dataset_h5_files --models-path results/interaction-dataset/{exp_name}/{model_epoch}.pth 
+```
+
+## Reference
+
+If you use this repository, please cite our work:
+
+```
+@inproceedings{
+  girgis2022latent,
+  title={Latent Variable Sequential Set Transformers for Joint Multi-Agent Motion Prediction},
+  author={Roger Girgis and Florian Golemo and Felipe Codevilla and Martin Weiss and Jim Aldon D'Souza and Samira Ebrahimi Kahou and Felix Heide and Christopher Pal},
+  booktitle={International Conference on Learning Representations},
+  year={2022},
+  url={https://openreview.net/forum?id=Dup_dDqkZC5}
+}
 ```
 
 
