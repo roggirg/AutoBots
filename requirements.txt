@@ -1,0 +1,12 @@
+h5py==3.3.0
+matplotlib==3.4.2
+numpy==1.19.0
+opencv_python==4.5.3.56
+pandas==1.3.1
+pyproj==3.2.1
+pyquaternion==0.9.9
+scikit_learn==1.0.2
+scipy==1.7.1
+torch==1.9.0
+torchvision==0.10.0
+trajnetplusplustools==0.3.0
