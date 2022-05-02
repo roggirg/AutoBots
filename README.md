@@ -65,7 +65,7 @@ python train.py --exp-id test --seed 1 --dataset interaction-dataset --model-typ
 
 For all experiments, you can evaluate the trained model on the validation dataset by running:
 ```
-python evaluate.py ----dataset-path /path/to/root/of/interaction_dataset_h5_files --models-path results/{Dataset}/{exp_name}/{model_epoch}.pth --batch-size 64
+python evaluate.py --dataset-path /path/to/root/of/interaction_dataset_h5_files --models-path results/{Dataset}/{exp_name}/{model_epoch}.pth --batch-size 64
 ```
 Note that the batch-size may need to be reduced for the Interaction-dataset since evaluation is performed on all agent scenes.
 
