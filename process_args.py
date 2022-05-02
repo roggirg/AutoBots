@@ -10,6 +10,7 @@ def get_train_args():
     parser.add_argument("--exp-id", type=str, default=None, help="Experiment identifier")
     parser.add_argument("--seed", type=int, default=0, help="Random seed")
     parser.add_argument("--disable-cuda", action="store_true", help="Disable CUDA")
+    parser.add_argument("--save-dir", type=str, default=".", help="Directory for saving results")
 
     # Section: Dataset
     parser.add_argument("--dataset", type=str, required=True, choices=["Argoverse", "Nuscenes", "trajnet++",
